@@ -1,2 +1,2 @@
 #!/bin/sh -l
-echo "$FIREBASE_TOKEN"
+echo "$INPUT_FIREBASE_TOKEN"
