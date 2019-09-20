@@ -1,2 +1,3 @@
 #!/bin/sh
-echo */
+cd Build
+echo index.html
