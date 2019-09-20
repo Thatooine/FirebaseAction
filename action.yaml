@@ -8,4 +8,4 @@ runs:
   using: "docker"
   image: "Dockerfile"
   env:
-    FIREBASE_TOKEN: FIREBASE_TOKEN
+    FIREBASE_TOKEN: ${{ inputs.FIREBASE_TOKEN }}
