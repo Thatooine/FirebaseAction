@@ -1,0 +1,11 @@
+name: "Firebase deployment"
+description: "Feather deployment to firebase"
+inputs:
+  FIREBASE_TOKEN:
+    description: "Firebase auth token"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  env:
+    FIREBASE_TOKEN: FIREBASE_TOKEN
