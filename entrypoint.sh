@@ -1,2 +1,2 @@
-#!/bin/sh -l
- ls
+#!/bin/sh
+ls
