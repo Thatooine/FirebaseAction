@@ -1,3 +1,3 @@
 #!/bin/sh
-cd Build
-echo index.html
+cd ./src
+cat index.tsx
